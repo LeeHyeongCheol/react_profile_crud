@@ -1,0 +1,59 @@
+
+
+.header {
+    background-color: #41418B;
+    float: left;
+    /* table-layout: fixed; */
+    width: 100%;
+    font-family:"source-han-sans-korean",sans-serif;
+}
+
+.menu_home {
+    float: left;
+    /* table-layout: fixed; */
+    margin-left: 10px;
+}
+
+.menu_mypage {
+    float: left;
+    /* table-layout: fixed; */
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.login_menu {
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.Search_menu {
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.calendar_menu {
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.item {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: table-cell;
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.item:hover {
+    background-color: skyblue;
+}
+
+.item:active, .item.item:active {
+    background-color: white;
+    color: cornflowerblue;
+}
